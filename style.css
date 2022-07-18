@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@300&family=Baloo+Bhaijaan+2:wght@500&family=Ubuntu+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+body{
+    background-color: #EAEAEA !important;
+}
+*{
+    margin: 0;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    /* font-family: 'Anek Bangla', sans-serif; */
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+}
+
+.nevbar{
+    background-color: #D6D6D6;
+    color: #039f9d;
+    /* height: 3rem; */
+    width:100%;
+    font-size: 15px;
+    font-family: 'Anek Bangla', sans-serif;
+    display: flex;
+    align-items: center;
+    /* display: block; */
+    position:sticky;
+    top: 0;
+    opacity: 0.94;
+
+}
+
+.nevbar img {
+    height: 2.9rem;
+    padding:0.2rem;
+    filter: opacity(0.4) drop-shadow(0 0 0 #039f9d); 
+    cursor: pointer;
+}
+
+.flex_container{
+    display: flex;
+    justify-content:space-around;
+}
+
+.name h1 {
+    font-size: 6.2rem;
+    padding: 0.5rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #039f9d;
+    cursor: pointer;
+
+}
+
+.main{
+    align-items:center;
+    /* justify-content: center; */
+    /* background-image: url('./background\ pt1.jpg') */
+    
+}
+
+.intro{
+    padding: 0rem 0rem 0rem 0.6rem;
+    /* padding: 0.5rem; */
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+
+.main_img img {
+
+    margin: 2rem;
+    height: 31rem;
+    cursor: pointer;
+    /* border: 1px solid #BE0AFF; */
+    /* border-radius: 15rem; */
+
+}
+
+.flex_row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    /* background-color: white; */
+    /* margin: 0.5rem; */
+
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+td, th {
+    border-top: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+    /* text-align: left; */
+    padding: 1.1rem;
+}
+
+th, a{
+    /* text-decoration: none; */
+    color: #000000;
+}
+
+.trending_cripto h2{
+    font-size: 1.9em;
+    padding: 0.5rem;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+
+/* .trending_cripto .top10 {
+    display: flex;
+    /* height:15rem;
+    width:12.5rem; */
+    /* height:10rem; */
+    /* width:10rem; */
+   /* background-color: #f1f1f1;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.7rem;
+} */
+
+.featurs{
+    justify-content:space-evenly;
+    background-color: #039f9d;
+    /* width: 100%; */
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    /* overflow-x: scroll; */
+}
+
+.featurs > .card{
+    width: 25rem;
+    /* height: 5rem; */
+    background-color: #303f3f;
+    border: 2px solid #039f9d;
+    color: #fff;
+    padding: 1rem;
+    margin: 2rem;
+    text-align: center;
+    border-radius: 1.3rem;
+    /* flex-shrink : 0; */
+}
+
+.card h3{
+    padding: 1rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.3rem;
+}
+
+.card p{
+    /* padding: 0.1rem; */
+    font-size: 1rem;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.footer_flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #303f3f;
+    color: #ffffff;
+    font-size: 1.2rem;
+    padding: 0.3rem 0.7rem;
+    text-align: center;
+    align-items: center;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+
+.footer_flex i {
+    padding: 0rem 0rem 0rem 0.5rem;
+    cursor: pointer;
+
+}
+
+
+
